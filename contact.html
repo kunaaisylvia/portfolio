@@ -1,0 +1,138 @@
+<!---//////////////////////////////
+    Article:Portfolio Home Page  //
+    Author:Sylvia Kunaa          //
+    Date: June 2021              //           
+    License: MIT                 //
+////////////////////////////////-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./css/fontawesome.js" crossorigin="anonymous"></script>
+  <title>Sylvia Kunaai Portfolio</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--Navigation Bar Section-->
+    <nav class="navbar">
+      <a href="" class="nav-link">Sylvia Kunaai</a>
+
+
+      <div>
+        <a href="./index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+        <a href="./project.html" class="nav-link"><i class="fas fa-tasks"></i> Project</a>
+        <a href="./services.html" class="nav-link"><i class="fas fa-concierge-bell"></i> Services</a>
+        <a href="./about.html" class="nav-link"><i class="far fa-address-card"></i> About</a>
+        <a href="./blog.html" class="nav-link"><i class="fas fa-blog"></i> Blog</a>
+        <a href="./contact.html" class="nav-link"><i class="fas fa-id-card"></i> Contact</a>
+        <a href="resume"><i class="far fa-file"></i> Resume</a>
+      </div>
+    </nav>
+  <hr />
+  <h1>My Contacts</h1>
+  <!--Main Section-->
+  <h2><b>Drop me a line....</b></h2>
+  <form>
+    <div>
+      <label for="email"><b>Email*</b></label><br>
+      <input type="Varchar" value="Your Email"><br>
+      <br>
+      <label for="name"><b>Name*</b></label><br>
+      <input type="text" value="Your Name"><br>
+      <br>
+      <label for="tel"><b>Tel</b></label>
+      <input type="int" value="+254"><input type="int" value="07********"><br>
+      <br>
+      <label for="preferred means"><b>Preferred means:</b></label>
+      <label class="tel">Tel</label>
+      <input type="checkbox" id="checkbox-1-1" class="regular-checkbox" />
+      <label class="email">Email</label>
+      <input type="checkbox" id="checkbox-1-1" class="regular-checkbox" /><br>
+      <br>
+      <label class="product"><b>Product*</b></label><br>
+      <select name="" id="Product">
+        <option value="Web Application">Web Application</option>
+      </select><br>
+      <br>
+      <label for="message"><b>Message*</b></label>
+      <section id="app">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-10">
+              <div class="comment">
+                <!--<p v-for="items in item" v-text="items"></p>-->
+              </div>
+              <!--End Comment-->
+            </div>
+            <!--End col -->
+          </div><!-- End row -->
+          <div class="row">
+            <div class="col-10">
+              <textarea type="text" class="input" placeholder="" v-model="newItem" @keyup.enter="addItem()"></textarea>
+            </div>
+          </div>
+          <!--End Row -->
+        </div>
+        <!--End Container -->
+      </section><!-- end App --> <br>
+      <input type="checkbox" id="checkbox-1-1" class="regular-checkbox" />
+      <label for="offers">Subscribe to news and overs</label><br>
+      <br>
+      <input type="submit" value="Send Message">
+    </div>
+  </form>
+
+  <main>
+    <section class="Featured-projects">
+      <h2>Featured Projects</h2>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </section>
+
+    <section class="testimonials">
+      <h2>Testimonials</h2>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </section>
+
+    <section class="fags">
+      <h2>Frequantily asked quations</h2>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </section>
+
+
+
+
+
+
+  </main>
+
+  <!--Footer Section-->
+  <footer>
+    <ul>
+      <li><a href="http://www.github.com/sylviakunaai "><i class="fab fa-github fa-2x"></i></a></li>
+      <li>
+        <a href="http://www.linkedin.com/in/sylvia-kunaai-72baa6217/"><i class="fab fa-linkedin fa-2x"></i></a>
+      </li>
+      <li><a href="http://www.twitter.com/Sylviakunaai/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+      <li><a href="http://www.instagram.com/sylviakunaai/"><i class="fab fa-instagram fa-2x"></i></a></li>
+    </ul>
+    <p>
+      &copy;2021 All right reserved.&trade;
+      <a href="index.html">Sylvia Kunaai</a>
+    </p>
+  </footer>
+  </div>
+</body>
+
+</html>
