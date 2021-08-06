@@ -10,9 +10,13 @@ body {
   flex-direction: column;
   height: 100vh;
 }
-.container{
-    width="300"
-    height="300"
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
 }
 .navbar {
   background-color: #7e22a8;
@@ -23,16 +27,22 @@ body {
   justify-content: space-between;
 }
 
-.navlink {
+.nav-link {
   color: #fff;
   margin-right: 0.5rem;
 }
-.jumbotron{
-  background-color: #09099e;
+
+.nav-link:hover {
+  color: #000;
+  background: #fff;
+}
+.jumbotron {
+  background-color: #787897;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  allign-items:center;
+  align-items: center;
+  padding: 1rem;
 }
 a {
   text-decoration: none;
@@ -45,6 +55,9 @@ main {
 .cards-container {
   display: flex;
   flex-direction: row;
+}
+.navbar-icon {
+  display: none;
 }
 
 .card {
@@ -80,14 +93,24 @@ footer p {
   color: #fff;
   text-align: center;
 }
+
+.form-control {
+  outline: none;
+  width: 100%;
+  border-color: transparent;
+  min-height: 2rem;
+  font-size: 1.5rem;
+}
 @media screen and (max-width: 560px) {
   .jumbotron {
     flex-direction: column;
   }
 
-.navbar-collapse{
-  display: none;
-}
+  .navbar-collapse {
+    display: none;
+  }
 
-  
+  #navbar-icon {
+    display: inline-block;
+  }
 }
